@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaishnavi R — Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">VR<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#achievements">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow"><span class="status-dot"></span> Open to opportunities</p>
+      <h1 class="hero-name">Vaishnavi<br/><span class="hero-name-accent">R</span></h1>
+      <p class="hero-title">Full Stack Developer &amp; Data Enthusiast</p>
+      <p class="hero-bio">BCA graduate from Jamal Mohamed College, Trichy · CGPA 8.84 · Passionate about building clean, functional digital experiences from the ground up — frontend to backend, logic to interface.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/Vaishnavi-786" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vaishnavi-r-93b041268/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:vaishnavi782004@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card">
+        <div class="hero-card-header">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        </div>
+        <pre class="hero-code"><span class="kw">const</span> <span class="fn">vaishnavi</span> = {
+  <span class="prop">role</span>: <span class="str">"Full Stack Developer"</span>,
+  <span class="prop">degree</span>: <span class="str">"BCA"</span>,
+  <span class="prop">cgpa</span>: <span class="num">8.84</span>,
+  <span class="prop">location</span>: <span class="str">"Trichy, TN"</span>,
+  <span class="prop">stack</span>: [
+    <span class="str">"Python"</span>, <span class="str">"Django"</span>,
+    <span class="str">"JavaScript"</span>, <span class="str">"Firebase"</span>,
+    <span class="str">"MySQL"</span>, <span class="str">"C++"</span>
+  ],
+  <span class="prop">status</span>: <span class="str">"Ready to build 🚀"</span>
+};</pre>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2 class="section-heading">Crafting code with <em>purpose</em></h2>
+          <p>I'm Vaishnavi R, a passionate Computer Applications graduate from Jamal Mohamed College, Trichy, where I graduated in 2025 with a CGPA of 8.84. My journey in technology has been driven by an unquenchable curiosity — from writing my first C program to building full-stack web applications with Django and Firebase.</p>
+          <p>I thrive at the intersection of logic and creativity: I enjoy building systems that are not only functional but delightful to use. Whether it's architecting a database, solving algorithmic challenges, or crafting a pixel-perfect UI, I bring care and intention to every layer of a project.</p>
+          <p>I've had the privilege of interning at <strong>NIT Trichy</strong> (Data Structures & Algorithms) and <strong>Hitakey Solutions</strong> (Python, Django, SQL, Firebase), turning theoretical knowledge into production-grade projects. I'm now eager to bring this energy to a dynamic team.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">8.84</span><span class="stat-label">CGPA</span></div>
+            <div class="stat"><span class="stat-num">8+</span><span class="stat-label">Projects</span></div>
+            <div class="stat"><span class="stat-num">2</span><span class="stat-label">Internships</span></div>
+            <div class="stat"><span class="stat-num">2025</span><span class="stat-label">Graduate</span></div>
+          </div>
+        </div>
+        <div class="about-details">
+          <div class="detail-card">
+            <h3>Education</h3>
+            <div class="edu-item">
+              <div class="edu-degree">Bachelor of Computer Applications</div>
+              <div class="edu-college">Jamal Mohamed College</div>
+              <div class="edu-uni">Bharathidasan University</div>
+              <div class="edu-meta"><span class="badge">2022 – 2025</span><span class="badge accent">CGPA: 8.84</span></div>
+            </div>
+          </div>
+          <div class="detail-card">
+            <h3>Languages</h3>
+            <div class="lang-list">
+              <div class="lang-item"><span>English</span><div class="lang-bar"><div class="lang-fill" style="width:90%"></div></div></div>
+              <div class="lang-item"><span>Tamil</span><div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div></div>
+            </div>
+          </div>
+          <div class="detail-card">
+            <h3>Personal Info</h3>
+            <ul class="info-list">
+              <li><i class="fas fa-map-marker-alt"></i> Trichy, Tamil Nadu – 620004</li>
+              <li><i class="fas fa-phone"></i> +91 75290 79822</li>
+              <li><i class="fas fa-envelope"></i> vaishnavi782004@gmail.com</li>
+              <li><i class="fas fa-graduation-cap"></i> BCA, Jamal Mohamed College</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-label light">Skills</div>
+      <h2 class="section-heading light">Technical <em>Arsenal</em></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Python</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-globe"></i></div>
+          <h3>Web Technologies</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Django</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-database"></i></div>
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQLite</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-sitemap"></i></div>
+          <h3>Core CS</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Data Structures</span>
+            <span class="skill-tag">Algorithms</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">DBMS</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools & Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Team Collaboration</span>
+            <span class="skill-tag">Quick Learner</span>
+            <span class="skill-tag">Communication</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-label">Projects</div>
+      <h2 class="section-heading">Things I've <em>Built</em></h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-badge">Featured</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Resume Analyser</h3>
+          <p class="project-desc">An AI-powered tool that parses uploaded resumes, extracts key skills and experience, and provides actionable feedback to help candidates improve their CVs for specific job roles.</p>
+          <div class="project-features">
+            <span>PDF Parsing</span><span>Keyword Matching</span><span>Score Report</span><span>Skill Gap Analysis</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span><span class="tech-tag">NLP</span><span class="tech-tag">Django</span><span class="tech-tag">SQLite</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Grocery Webpage</h3>
+          <p class="project-desc">A fully responsive e-commerce style grocery storefront with product listings, category filters, and a dynamic cart system built with vanilla JavaScript.</p>
+          <div class="project-features">
+            <span>Responsive Design</span><span>Cart System</span><span>Filter & Search</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">HTML5</span><span class="tech-tag">CSS3</span><span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-users"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Student Database Management System</h3>
+          <p class="project-desc">A desktop-grade CRUD application for managing student records — admission, grades, attendance, and reports — backed by a relational database with role-based access.</p>
+          <div class="project-features">
+            <span>CRUD Operations</span><span>Role-based Access</span><span>Report Export</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span><span class="tech-tag">MySQL</span><span class="tech-tag">Tkinter</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-check-circle"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Todo List App</h3>
+          <p class="project-desc">A feature-rich task manager with local persistence, priority tagging, deadline reminders, and smooth drag-and-drop reordering of tasks.</p>
+          <div class="project-features">
+            <span>Local Storage</span><span>Priority Levels</span><span>Deadline Alerts</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-lock"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Login System</h3>
+          <p class="project-desc">A secure authentication system featuring user registration, hashed password storage, session management, and password reset functionality via Firebase Auth.</p>
+          <div class="project-features">
+            <span>Firebase Auth</span><span>Password Hashing</span><span>Session Mgmt</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span><span class="tech-tag">Django</span><span class="tech-tag">Firebase</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-cloud-sun"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Weather App</h3>
+          <p class="project-desc">A real-time weather dashboard that fetches live data via a public weather API, displaying temperature, humidity, wind speed, and a 5-day forecast with dynamic UI theming by condition.</p>
+          <div class="project-features">
+            <span>Live API Data</span><span>5-day Forecast</span><span>Dynamic Theming</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">HTML</span><span class="tech-tag">CSS</span><span class="tech-tag">JavaScript</span><span class="tech-tag">REST API</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-wallet"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Expense Tracker</h3>
+          <p class="project-desc">A personal finance tracker that categorises expenses, visualises monthly spending patterns with charts, and syncs data across sessions using Firebase Realtime Database.</p>
+          <div class="project-features">
+            <span>Charts & Graphs</span><span>Category Filter</span><span>Cloud Sync</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">JavaScript</span><span class="tech-tag">Firebase</span><span class="tech-tag">Chart.js</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="projects-cta">
+        <a href="https://github.com/Vaishnavi-786" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> View All on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section section-dark" id="experience">
+    <div class="container">
+      <div class="section-label light">Experience</div>
+      <h2 class="section-heading light">Where I've <em>Worked</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">2024</span>
+              <span class="timeline-type">Internship</span>
+            </div>
+            <h3 class="timeline-role">Software Intern</h3>
+            <div class="timeline-company"><i class="fas fa-building"></i> Hitakey Solutions</div>
+            <p class="timeline-desc">Developed full-stack web applications using Python, Django, SQL, and Firebase. Worked on real-world client projects involving backend API design, relational database schema design, and Firebase real-time data integration. Gained hands-on experience in agile team workflows and code review practices.</p>
+            <div class="timeline-tags">
+              <span>Python</span><span>Django</span><span>SQL</span><span>Firebase</span><span>REST APIs</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <span class="timeline-date">2023</span>
+              <span class="timeline-type">Internship · 1 Month</span>
+            </div>
+            <h3 class="timeline-role">Research Intern — DSA</h3>
+            <div class="timeline-company"><i class="fas fa-university"></i> National Institute of Technology, Trichy</div>
+            <p class="timeline-desc">Selected for a prestigious research internship at NIT Trichy where I worked on solving complex algorithmic problems and implemented advanced data structures including trees, graphs, heaps, and dynamic programming solutions. Strengthened core CS fundamentals under faculty mentorship.</p>
+            <div class="timeline-tags">
+              <span>Data Structures</span><span>Algorithms</span><span>C++</span><span>Dynamic Programming</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-label">Certifications</div>
+      <h2 class="section-heading">Credentials & <em>Certificates</em></h2>
+      <div class="certs-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body">
+            <h3>Internship Certificate</h3>
+            <p class="cert-org">Hitakey Solutions</p>
+            <p class="cert-desc">Certified completion of industry internship in Python, Django, SQL & Firebase development.</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-award"></i></div>
+          <div class="cert-body">
+            <h3>Internship Certificate</h3>
+            <p class="cert-org">National Institute of Technology, Trichy</p>
+            <p class="cert-desc">Certified for successful completion of Data Structures & Algorithms research internship.</p>
+            <span class="cert-year">2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="cert-body">
+            <h3>Python Programming</h3>
+            <p class="cert-org">Online Certification</p>
+            <p class="cert-desc">Comprehensive certification covering Python fundamentals, OOP, file handling and libraries.</p>
+            <span class="cert-year">2023</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-database"></i></div>
+          <div class="cert-body">
+            <h3>SQL & Database Design</h3>
+            <p class="cert-org">Online Certification</p>
+            <p class="cert-desc">Certified in relational database design, advanced SQL queries, joins, and optimisation.</p>
+            <span class="cert-year">2024</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="section section-tinted" id="achievements">
+    <div class="container">
+      <div class="section-label">Achievements</div>
+      <h2 class="section-heading">Competitions & <em>Recognition</em></h2>
+      <div class="achievements-grid">
+
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fas fa-code-branch"></i></div>
+          <h3>Hackathon Participant</h3>
+          <p>Participated in multiple hackathons at college and inter-college level, building functional prototypes under 24–48 hour time constraints. Demonstrated rapid prototyping, teamwork, and problem-solving under pressure.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fas fa-trophy"></i></div>
+          <h3>Technical Competitions</h3>
+          <p>Competed and achieved recognition in technical events across inter-departmental and inter-college fests — including coding contests, debugging rounds, and project expos, showcasing technical depth and creativity.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fas fa-star"></i></div>
+          <h3>Academic Excellence</h3>
+          <p>Maintained a CGPA of 8.84 throughout the BCA programme at Jamal Mohamed College, consistently performing in the top tier of the batch across core subjects and practical labs.</p>
+        </div>
+
+        <div class="achievement-card">
+          <div class="ach-icon"><i class="fas fa-project-diagram"></i></div>
+          <h3>Project Showcase</h3>
+          <p>Presented projects at college-level technical expos, receiving appreciation for innovation in AI-powered tools and full-stack web applications, particularly the Resume Analyser system.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-label">Contact</div>
+      <h2 class="section-heading">Let's <em>Connect</em></h2>
+      <p class="contact-sub">I'm actively looking for exciting opportunities. Whether you have a role, a project idea, or just want to say hi — my inbox is always open.</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:vaishnavi782004@gmail.com" class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <div class="contact-item-label">Email</div>
+              <div class="contact-item-value">vaishnavi782004@gmail.com</div>
+            </div>
+          </a>
+          <a href="tel:+917529079822" class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <div class="contact-item-label">Phone</div>
+              <div class="contact-item-value">+91 75290 79822</div>
+            </div>
+          </a>
+          <div class="contact-item">
+            <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <div class="contact-item-label">Location</div>
+              <div class="contact-item-value">Trichy, Tamil Nadu – 620004</div>
+            </div>
+          </div>
+          <a href="https://linkedin.com/in/vaishnavi-r-93b041268/" target="_blank" class="contact-item">
+            <div class="contact-item-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <div class="contact-item-label">LinkedIn</div>
+              <div class="contact-item-value">vaishnavi-r-93b041268</div>
+            </div>
+          </a>
+          <a href="https://github.com/Vaishnavi-786" target="_blank" class="contact-item">
+            <div class="contact-item-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <div class="contact-item-label">GitHub</div>
+              <div class="contact-item-value">Vaishnavi-786</div>
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="Jane Doe" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="jane@example.com" required/>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">VR<span class="dot">.</span></span>
+        <p class="footer-copy">Designed &amp; built by Vaishnavi R · 2025</p>
+        <div class="footer-socials">
+          <a href="https://github.com/Vaishnavi-786" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vaishnavi-r-93b041268/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:vaishnavi782004@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
